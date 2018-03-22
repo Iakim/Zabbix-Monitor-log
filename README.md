@@ -29,4 +29,4 @@
       Isaac
       Moraes
       
-# Note: All files are in C:\, to change, change in the $new and $old variable and also in the zabbix-agent item.
+#### Note: All files are in C:\, to change, change in the $new and $old variable and also in the zabbix-agent item.
