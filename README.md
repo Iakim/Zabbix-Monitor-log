@@ -1,4 +1,4 @@
-# Zabbix - Monitor log advanced
+# Zabbix - Monitor log
 
 ### Zabbix_agentd.conf
       Timeout=30
