@@ -19,11 +19,13 @@
 ### Other Files:
 
 #### New.txt
+##### Content:
        
                                                                           Index
                                                                           -----
                                                                          310250
 #### Old.txt
+##### Content:
       Iakim
       -----
       Isaac
