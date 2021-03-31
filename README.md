@@ -1,10 +1,12 @@
 # Zabbix - Monitor log
 
-### Zabbix_agentd.conf
+### Download the script called EventLog.ps1 to the C:\ in Windows Host
+
+### Configure your zabbix_agentd.conf
       Timeout=30
       EnableRemoteCommands=1
       
-### Zabbix Iten
+### Zabbix Iten need all the configurations below
       Name: Event Log
       Type: zabbix-agent
       Key: system.run[powershell.exe -command c:\EventLog.ps1]
@@ -12,20 +14,21 @@
       Type of information: Text
       Update(in sec): 60
       
-### Zabbix Trigger
+### Zabbix Trigger need all the configurations below
       Name: Novo Evento 1053 encontrado no {HOST.NAME}
       Expression: {iakim:system.run[powershell.exe -command c:\EventLog.ps1].last()}>0
       
-### Other Files:
+### Create the file called New.txt and Old.txt in your C: Windows host:
 
 #### New.txt
-##### Content:
+- Content:
        
                                                                           Index
                                                                           -----
                                                                          310250
 #### Old.txt
-##### Content:
+- Content:
+
       Iakim
       -----
       Isaac
