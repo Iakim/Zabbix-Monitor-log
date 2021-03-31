@@ -1,7 +1,7 @@
 ###########################################################################
 # NOME: Zabbix-Monitor log advanced
 # AUTOR: Isaac de Moraes
-# COMENTÁRIO: Script para monitorar logs do zabbix com busca avançada
+# COMENTÁRIO: Script para monitorar logs do Windows com busca avançada
 # HISTÓRICO DE VERSÃO: 1.0
 # 1.0 | 22/03/2018 - Versão inicial - Isaac de Moraes
 ############################################################################
